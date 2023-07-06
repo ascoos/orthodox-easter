@@ -49,16 +49,13 @@ class TEasterHandler {
 		$arr = array();
 		
 		for ($i=0; $i <= $years; $i++)
-		{
-			
+		{			
 			$year = $startyear + $i;
 			
 			// We calculate Orthodox Easter
 			$easter = (19*($year%19)+16)%30+(2*($year%4)+4*($year%7)+6*((19*($year%19)+16)%30))%7+3;
 
-			
 			$arr[$year] = array();
-			
 			
 			if ($easter > 30) {
 				$arr[$year]['month'] = 5;
@@ -70,7 +67,6 @@ class TEasterHandler {
 		}
 		return $arr;
 	}
-
 
 
 
