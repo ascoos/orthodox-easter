@@ -18,7 +18,7 @@ It can also output the Easter data in HTML to display as part of the current scr
 
 ***
 
-<p align="center"><img src="https://github.com/ascoos/orthodox-easter/blob/main/screenshot/oeaster-01.png" /></p>
+<p align="center"><img src="https://github.com/ascoos/orthodox-easter/blob/main/screenshot/oeaster-02-010001.png" /></p>
 
 
 
